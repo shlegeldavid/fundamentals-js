@@ -20,17 +20,11 @@ export const identifySign = (number) => {
     }
 }
 
-export const reverseWords = (str) => {
-    let strWordArrays = str.split(' ');
-    let reverseWord = [];
-    for (let i = (strWordArrays) - 1; i > 0; i--) {
-        reverseWord.push(strWordArrays[i]);
-    }
-    console.log(reverseWord.join(' '));
-}
-
+export const reverseWords = (str) => str.split(' ').reverse().join(' ');
+   
 export const wordsCount = (str) => {
-
+    let result = 0;
+    for (let i)
 }
 
 
